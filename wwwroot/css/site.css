@@ -1,0 +1,68 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+* {
+    color: #0a3b72;
+}
+body {
+  margin-bottom: 60px;
+}
+
+.carousel-item {
+    height: 550px;
+    overflow: hidden;
+    min-height: 200px;
+}
+#carouselExampleIndicators {
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+}
+#titolo {
+    font-size: 90%;
+    transition: 800ms;
+}
+
+#titolo:hover{
+  transition: 800ms;
+  font-size: 100%;}
+
+
+.text-center {
+    margin-top: 20px
+}
+
+
+#logo{width: 50px;}
+
+.navbar{
+    position: fixed;
+    color: #0a3b72;
+    z-index:9999;
+    left:0;
+    width: 100%;
+}
+
+.navbar-collapse .nav-item a.nav-link {
+    color: #0a3b72;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+img{user-select: none;}
+.d-block {
+    margin: -100px 0px 100px 0px;
+    overflow: hidden;
+    width: 100%;
+    min-height: 300px;
+}
